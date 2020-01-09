@@ -1,5 +1,7 @@
 ## brother\_ql\_web\_image
 
+This is a copy of [brother_ql_web](https://github.com/pklaus/brother_ql_web), full credits go to him.
+
 This is a web service to print labels on Brother QL label printers.
 
 You need Python 3 for this software to work.
