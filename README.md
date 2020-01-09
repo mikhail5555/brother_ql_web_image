@@ -1,6 +1,6 @@
 ## brother\_ql\_web\_image
 
-This is a copy of [brother_ql_web](https://github.com/pklaus/brother_ql_web), full credits go to him.
+This is a copy of [brother_ql_web](https://github.com/pklaus/brother_ql_web), full credits go to pklaus.
 
 This is a web service to print labels on Brother QL label printers.
 
@@ -17,7 +17,7 @@ Get the code:
 
     git clone https://github.com/Mikhail5555/brother_ql_web_image
 
-or download [the ZIP file](https://github.com/pklaus/brother_ql_web/archive/master.zip) and unpack it.
+or download [the ZIP file](https://github.com/Mikhail5555/brother_ql_web_image/archive/0.1.zip) and unpack it.
 
 Install the requirements:
 
