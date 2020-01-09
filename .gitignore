@@ -109,3 +109,7 @@ venv.bak/
 
 # idea
 .idea/*
+
+# images
+img/*
+!img/.gitkeep
