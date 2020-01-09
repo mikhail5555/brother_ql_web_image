@@ -35,7 +35,6 @@ Copy `config.example.json` to `config.json` (e.g. `cp config.example.json config
 To start the server, run `./brother_ql_web.py`. The command line parameters overwrite the values configured in `config.json`. Here's its command line interface:
 
     usage: brother_ql_web.py [-h] [--port PORT] [--loglevel LOGLEVEL]
-                             [--font-folder FONT_FOLDER]
                              [--default-label-size DEFAULT_LABEL_SIZE]
                              [--default-orientation {standard,rotated}]
                              [--model {QL-500,QL-550,QL-560,QL-570,QL-580N,QL-650TD,QL-700,QL-710W,QL-720NW,QL-1050,QL-1060N}]
@@ -51,8 +50,6 @@ To start the server, run `./brother_ql_web.py`. The command line parameters over
       -h, --help            show this help message and exit
       --port PORT
       --loglevel LOGLEVEL
-      --font-folder FONT_FOLDER
-                            folder for additional .ttf/.otf fonts
       --default-label-size DEFAULT_LABEL_SIZE
                             Label size inserted in your printer. Defaults to 62.
       --default-orientation {standard,rotated}
@@ -70,9 +67,7 @@ You will then be forwarded by default to the interactive web gui located at `/la
 
 All in all, the web server offers:
 
-* a Web GUI allowing you to print your labels at `/labeldesigner`,
-* an API at `/api/print/text?text=Your_Text&font_size=100&font_family=Minion%20Pro%20(%20Semibold%20)`
-  to print a label containing 'Your Text' with the specified font properties.
+* a Web GUI allowing you to print your labels at `/labeldesigner`
 
 ### License
 
